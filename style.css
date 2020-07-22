@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    background-color: red;
+    color: rgb(50, 62, 80);
+    font-family: Courier;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h1 {color: rgb(20, 12, 131);}
+
+h2 {color: rgb(255, 13, 182);}
+
+a {
+    text-decoration: none;
+    color: rgb(208, 255, 0);
+}
+a:hover {color: rgb(251, 252, 247)}
+
+button {
+    color: rgb(161, 2, 167);
+    font-size: 30px;
+}
+
+#img1 {
+    width: 300px;
+    box-shadow: 20px, 20px, 30px, green;
+    border-radius: 50%;
+}
+
+div {
+    width: auto;
+    color: rgba(255, 255, 255, 0.808);
+    padding: 7px;
+}
+
+.border{
+    border: 7px solid rgba(51, 18, 112, 0.712);
+    border-radius: 4px;
+    margin: 10px;
+    background-color: rgba(0, 255, 149, 0.418);
+    box-shadow: 20px, 20px, 30px, green;
+}
+
+.conteneur {
+  border: 7px solid rgba(51, 18, 112, 0.712);
+  border-radius: 4px;
+  margin: 10px;
+  padding: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+@media (max-width: 1280px) {
+    /* For a screen < 720px, this CSS will be read */
+    .conteneur {
+      border: 7px solid rgba(21, 112, 18, 0.712);
+      border-radius: 4px;
+      margin: 10px;
+      padding: 7px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+    }
+  }
+@media (max-width: 880px) {
+    /* For a screen < 540px, this CSS will be read */
+    .conteneur {
+      border: 7px solid rgba(112, 45, 18, 0.712);
+      border-radius: 4px;
+      margin: 10px;
+      padding: 7px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 600px;
+    }
+  }
